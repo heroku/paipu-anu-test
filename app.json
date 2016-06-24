@@ -6,6 +6,12 @@
     "heroku-postgresql"
   ],
   "env": {
+    "GITHUB_OAUTH_ID": {
+      "description": "GitHub OAuth application id"
+    },
+    "GITHUB_OAUTH_SECRET": {
+      "description": "GitHub OAuth application secret"
+    },
     "RACK_ENV": {
       "description": "The rack environment used to differentiate production from staging in rollbar",
       "default": "production"

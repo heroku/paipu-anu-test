@@ -1,7 +1,8 @@
 require "webmock/rspec"
-require "sidekiq/testing"
 
 RSpec.configure do |config|
+  OmniAuth.config.test_mode = true
+
   config.include(WebMock::API)
 
   config.expect_with :rspec do |expectations|

@@ -1,24 +1,29 @@
-# README
+# Tools Homework
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic rails app with Omniauth GitHub included.
 
-Things you may want to cover:
+Only users in the `ALLOWED_GITHUB_USERNAMES` will be able to login.
 
-* Ruby version
+## Development
 
-* System dependencies
+```
+$ bin/setup
+$ rails s
+```
 
-* Configuration
+## Tests
 
-* Database creation
+```
+$ rake
+```
 
-* Database initialization
+## What else?
 
-* How to run the test suite
+In order to auth, you need a [GitHub OAuth application](https://github.com/settings/applications/new).
+Please set `GITHUB_OAUTH_ID` and `GITHUB_OAUTH_SECRET` accordingly in `.env`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/tools-homework/tree/master)
 
-* ...
+
+

@@ -6,6 +6,10 @@
     "heroku-postgresql"
   ],
   "env": {
+    "ALLOWED_GITHUB_USERNAMES": {
+      "description": "Comma separated list of valid GitHub usernames",
+      "default": "jroes,atmos,ys"
+    },
     "GITHUB_OAUTH_ID": {
       "description": "GitHub OAuth application id"
     },

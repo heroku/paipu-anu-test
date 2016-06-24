@@ -12,6 +12,8 @@ gem "jquery-rails"
 gem "lograge"
 gem "librato-rails"
 
+gem "omniauth-github"
+
 group :development, :test do
   gem "byebug"
   gem "rspec-rails"

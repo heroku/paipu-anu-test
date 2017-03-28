@@ -11,10 +11,12 @@
       "value": "jroes,atmos,ys"
     },
     "GITHUB_OAUTH_ID": {
-      "description": "GitHub OAuth application id"
+      "description": "GitHub OAuth application id",
+      "value": "unknown"
     },
     "GITHUB_OAUTH_SECRET": {
-      "description": "GitHub OAuth application secret"
+      "description": "GitHub OAuth application secret",
+      "value": "unknown"
     },
     "RACK_ENV": {
       "description": "The rack environment used to differentiate production from staging in rollbar",

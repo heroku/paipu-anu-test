@@ -2,23 +2,23 @@ source "https://rubygems.org"
 
 ruby "2.3.1"
 
-gem "rails", ">= 5.0.0", "< 5.1"
-gem "pg", "~> 0.18"
-gem "puma", "~> 3.0"
-gem "sass-rails", "~> 5.0"
-gem "uglifier", ">= 1.3.0"
 gem "coffee-rails", "~> 4.1.0"
 gem "jquery-rails"
-gem "lograge"
 gem "librato-rails"
+gem "lograge"
+gem "pg", "~> 0.18"
+gem "puma", "~> 3.0"
+gem "rails", ">= 5.0.0", "< 5.1"
+gem "sass-rails", "~> 5.0"
+gem "uglifier", ">= 1.3.0"
 
 gem "omniauth-github"
 
 group :development, :test do
   gem "byebug"
-  gem "rspec-rails"
   gem "capybara"
   gem "dotenv-rails"
+  gem "rspec-rails"
 end
 
 group :development do

@@ -28,7 +28,8 @@ RSpec.describe "OAuth authentication", type: :request do
 
   it "forbids users not in the list" do
     # User from the list
-    OmniAuth.config.mock_auth[:github] = github_omniauth_hash_for("not-in-the-list")
+    OmniAuth.config.mock_auth[:github] =
+      github_omniauth_hash_for("not-in-the-list")
 
     # Calling back from GitHub's OAuth handshake
     get "/auth/github"

@@ -1,4 +1,4 @@
-# Tools Test for Pipelines
+# Tools Test for Pipelines :heart:
 
 This is a basic rails app with Omniauth GitHub included.
 

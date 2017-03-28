@@ -1,10 +1,15 @@
 {
-  "name": "tools-homework",
+  "name": "tools-pipeline-test",
   "description": "Rails app with Omniauth",
   "keywords": [],
   "addons": [
     "heroku-postgresql"
   ],
+    "scripts": {
+    "postdeploy": "bin/rake db:migrate",
+    "test-setup": "bundle install --with test --local",
+    "test": "bin/cibuild"
+  },
   "env": {
     "ALLOWED_GITHUB_USERNAMES": {
       "description": "Comma separated list of valid GitHub usernames",

@@ -1,4 +1,4 @@
-# Tools Test for Pipelines :two_hearts:
+# Tools Test for Pipelines :sparkling_heart:
 
 This is a basic rails app with Omniauth GitHub included.
 

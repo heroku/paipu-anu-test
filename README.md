@@ -26,3 +26,5 @@ Please set `GITHUB_OAUTH_ID` and `GITHUB_OAUTH_SECRET` accordingly in `.env`
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/tools-homework/tree/master)
+
+:dancers:

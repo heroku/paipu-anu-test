@@ -2,14 +2,14 @@ source "https://rubygems.org"
 
 ruby "2.5.1"
 
-gem "coffee-rails", "~> 4.1.0"
+gem "coffee-rails"
 gem "jquery-rails"
 gem "librato-rails"
 gem "lograge"
 gem "pg", "~> 0.18"
 gem "puma", "~> 3.0"
-gem "rails", ">= 5.0.0", "< 5.1"
-gem "sass-rails", "~> 5.0"
+gem "rails", ">= 5.2"
+gem "sass-rails"
 gem "uglifier", ">= 1.3.0"
 
 gem "omniauth-github"

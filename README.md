@@ -4,7 +4,7 @@ This is a basic rails app with Omniauth GitHub included.
 
 Only users in the `ALLOWED_GITHUB_USERNAMES` will be able to login.
 
-We use it to test pipeline promotions.
+hi! We use it to test pipeline promotions.
 
 ## Development
 

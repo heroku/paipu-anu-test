@@ -4,3 +4,5 @@ rvm:
 script:
   - bundle exec rake 
   - bin/cibuild
+before_script:
+  - rake db:create

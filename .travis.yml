@@ -1,4 +1,7 @@
 language: ruby
 rvm:
   - 2.5.1
-script: bin/cibuild
+script: 
+  - bin/cibuild
+before_script:
+  - bundle exec rake db:create

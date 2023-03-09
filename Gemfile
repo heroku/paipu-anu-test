@@ -8,7 +8,7 @@ gem "librato-rails"
 gem "lograge"
 gem "pg", "~> 0.18"
 gem "puma", "~> 3.0"
-gem "rails", ">= 5.2"
+gem "rails", ">= 5.2.0"
 gem "sass-rails"
 gem "uglifier", ">= 1.3.0"
 

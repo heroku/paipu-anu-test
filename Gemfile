@@ -8,8 +8,8 @@ gem "librato-rails"
 gem "lograge"
 gem "pg", "~> 0.18"
 gem "puma", "~> 3.0"
-gem "rails", ">= 5.2"
-gem "sass-rails"
+gem "rails", ">= 6.1.7.3"
+gem "sass-rails", ">= 5.0.8"
 gem "uglifier", ">= 1.3.0"
 
 gem "omniauth-github"
@@ -17,7 +17,7 @@ gem "omniauth-github"
 group :development, :test do
   gem "byebug"
   gem "capybara"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.7.6"
   gem "rspec-rails"
 end
 
